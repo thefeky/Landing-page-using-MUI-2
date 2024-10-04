@@ -25,7 +25,7 @@ function App() {
 
       <Box
         sx={{
-          backgroundColor: "orange",
+          backgroundColor: "lightblue",
           textAlign: "center",
           padding: "8px 0",
         }}
