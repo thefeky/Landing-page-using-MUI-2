@@ -1,22 +1,21 @@
 import { Card, CardContent, CardMedia, Typography, Box } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-// Import all images from assets
-import imgOne from "../../assets/img1.png";
-import imgTwo from "../../assets/img2.png";
-import imgThree from "../../assets/img3.png";
-import imgFour from "../../assets/img4.png";
-import imgFive from "../../assets/img5.png";
-import imgSix from "../../assets/img1.png";
-import imgSeven from "../../assets/img2.png";
-import imgEight from "../../assets/img3.png";
-import imgNine from "../../assets/img4.png";
-import imgTen from "../../assets/img5.png";
-import imgEleven from "../../assets/img1.png";
-import imgTwelve from "../../assets/img2.png";
-import imgThirteen from "../../assets/img3.png";
-import imgFourteen from "../../assets/img4.png";
-import imgFifteen from "../../assets/img5.png";
-import imgSixteen from "../../assets/img1.png";
+import imgOne from "../../assets/img1.jpg";
+import imgTwo from "../../assets/img2.jpg";
+import imgThree from "../../assets/img3.jpg";
+import imgFour from "../../assets/img4.jpg";
+import imgFive from "../../assets/img5.jpg";
+import imgSix from "../../assets/img1.jpg";
+import imgSeven from "../../assets/img2.jpg";
+import imgEight from "../../assets/img3.jpg";
+import imgNine from "../../assets/img4.jpg";
+import imgTen from "../../assets/img5.jpg";
+import imgEleven from "../../assets/img1.jpg";
+import imgTwelve from "../../assets/img2.jpg";
+import imgThirteen from "../../assets/img3.jpg";
+import imgFourteen from "../../assets/img4.jpg";
+import imgFifteen from "../../assets/img5.jpg";
+import imgSixteen from "../../assets/img1.jpg";
 
 const products = [
   { id: 1, name: "Product One", img: imgOne },
