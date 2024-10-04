@@ -5,7 +5,7 @@ import { AppBar, Typography, Box, Divider } from "@mui/material";
 import PromotionalBanner from "./components/PromotionalBanner/PromotionalBanner";
 import ShopProducts from "./components/ShopProducts/ShopProducts";
 import ImageTextSection from "./components/ImageTextSection/ImageTextSection";
-import img1 from "./assets/bed.jpg";
+import img1 from "./assets/main.jpg";
 
 function App() {
   return (
@@ -34,7 +34,9 @@ function App() {
           Labour Day: Enjoy 20% Off EQ3
         </Typography>
       </Box>
-      <section style={{ marginTop: "30px", paddingRight: "25px", paddingLeft: "25px" }}>
+      <section
+        style={{ marginTop: "30px", paddingRight: "25px", paddingLeft: "25px" }}
+      >
         <PromotionalBanner />
       </section>
       <Divider
