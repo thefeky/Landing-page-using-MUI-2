@@ -38,21 +38,14 @@ const products = [
 
 const ShopProducts = () => {
   return (
-    <Box sx={{ padding: "16px" }}>
+    <Box sx={{ padding: "16px", width: "100%", maxWidth: "100%" }}>
       <Typography variant="h4" fontWeight="bold" gutterBottom>
         SHOP BY CATEGORY
       </Typography>
 
-      <Grid container margin={"0 auto"} spacing={2}>
+      <Grid container margin={"0"} spacing={2}>
         {products.reverse().map((product) => (
-          <Grid
-            item
-            xs={6}
-            sm={4}
-            md={2}
-            key={product.id}
-            sx={{ textAlign: "center" }}
-          >
+          <Grid item xs={6} sm={4} md={2} key={product.id}>
             <Card sx={{ backgroundColor: "#f5f5f5", textAlign: "center" }}>
               <CardMedia
                 component="img"
