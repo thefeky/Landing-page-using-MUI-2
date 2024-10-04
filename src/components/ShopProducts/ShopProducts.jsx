@@ -45,7 +45,7 @@ const ShopProducts = () => {
 
       <Grid container margin={"0 auto"} spacing={2}>
         {products.reverse().map((product) => (
-          <Grid item xs={6} sm={4} md={3} key={product.id}>
+          <Grid item xs={6} sm={4} md={2} key={product.id}>
             <Card sx={{ backgroundColor: "#f5f5f5", textAlign: "center" }}>
               <CardMedia
                 component="img"
