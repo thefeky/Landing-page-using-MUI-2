@@ -1,6 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
 import PinterestIcon from "@mui/icons-material/Pinterest";
-import bedroomImage from "../../assets/bed.jpg";
+import bedroomImage from "../../assets/main.jpg";
 
 const PromotionalBanner = () => {
   return (
